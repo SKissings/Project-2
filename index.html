@@ -1,33 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head >
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 2</title>
     <link rel="stylesheet" href="CSS/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   
+    <script src="jquery-3.7.1.js"></script>
+
 </head>
-<body>
+<body style="background-image: linear-gradient(to right, white, #FFDDB2, rgb(60, 47, 17));">
     <div class="title">
-        <h1 class="name">The Bananas are DYING</h1>
-        <h3>...eventually</h3>
+        <h1 class="name">The Bananas are</h1>
+        <h1 class="death">DYING</h1>
+        <h3 class="ev">...eventually</h3>
+        <div class="star-shape">
+            <img src="MEDIA/Images/Untitled drawing.png" alt="star" class="star" id="star">
+            <div class="star-text" id="star-text">
+                <h4>It happened <br>in 1950 and its <br>happening <br>again!</h3>
+            </div>
+        </div>
     </div>
     <div>
-        <img src="MEDIA/Images/istock_000017061174small-6ca3bb7c8b6c768b92153932e822623a95065935.png" alt="banana" class="banana" id="Ban">
+        <img src="MEDIA/Images/istock_000017061174small-6ca3bb7c8b6c768b92153932e822623a95065935.png" alt="banana" class="fruit" id="Ban">
+        <div class="square" id="square"></div>
+        <button class="bring" id="bring">Bring It Back!</button>
     </div>
-    <div>
-        <i class="star"></i>
-    </div>
-    <div>
-        <p>Every Banana you eat could be your last</p>
-        <p>of this particular strain, then we have to re-engineer them</p>
-    </div>
-    <div>
+    <div class="text">
+     <div class="caption">
+        <p class="last">Every Banana you eat could be your last</p>
+        <p class="strain">of this particular strain, then we have to re-engineer them</p>
+     </div>
+     <div>
         <h3 class="info">It's a fungal disease that <br>infects the banana tree's <br>roots and kills it by <br>disabling its ability to <br>absorb water!</h3>
-        <h2>It's called</h2>
-        <h1>PANAMA DISEASE</h1>
-        <h2>and its making bananas go</h2>
-        <h1>EXTINCT <br class="again">AGAIN
-        </h1>
+        
+        <div class="disease">
+            <h2>It's called</h2>
+            <h1>PANAMA DISEASE</h1>
+            <h2>and its making bananas go</h2>
+            <h1>EXTINCT</h1>
+            <h1 class="again">AGAIN</h1>
+        </div>
+        <button class="button">Learn More</button>
     </div>
+    </div>
+
+    <script src="js/intro.js"></script>
+
 </body>
 </html>

@@ -1,13 +1,142 @@
+
+.jost {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <100>;
+  font-style: normal;
+}
+.irish-grover-regular {
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: #f8eca5;
+    font-family: jost;
 }
 .title {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    flex: absolute;
+    text-align: left;
+    color: #291800;
+    padding-left: 15%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.star-shape img{
+    max-width: 75%;
+    height: auto;
+}
+.star-shape {
+    position: absolute;
+    flex: absolute;
+    left: 50%;
+    top: 1%;
+}
+.star-text {
+    flex: absolute;
+    position: absolute;
+    top: 32%;
+    left: 24.3%;
+    color: #FFDDB2;
+    font-size: 35px;
+    text-align: center;
+}
+.star:hover{
+    transform: rotate(180deg);
+}
+.star {
+    transition: all 1s ease-in-out;
+}
+
+.death {
+    font-size: 84px;
+    font-style: italic;
+}
+.ev {
+    margin-left: 18%;
+    top: 100%;
+}
+.name {
+    font-size: 64px;
+}
+.last {
+    font-weight: 700;
+    font-size: 30px;
+    font-style: italic;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.caption {
+    padding: 20px;
+}
+
+.bring {
+    display: block;
+    position: relative;
+    flex: absolute;
+    margin-left: 47%;
+    margin-top: 15px;
+    color: #ffffff;
+    background-color: #291800;
+    font-size: 20px;
+}
+.fruit {
+    display: block;
+    position: absolute;
+    flex: absolute;
+    margin-left: 25%;
+    width: 50%;
+
+}
+.square {
+    display: block;
+    position: block;
+    flex: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+    width: 50%;
+    background-image: linear-gradient(white, #FFDDB2);
+  }
+
+
+.again {
+    font-style: italic;
 }
 .info {
+    text-align: left;
+    float: left;
     color: #31281f;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 64px;
+    padding: 2rem;
+    margin: 3rem;
 }
+.button {
+    position: relative;
+    flex: absolute;
+    background-color: #6F5B40;
+    width: 15%;
+    font-size: 35px;
+
+}
+  .text {
+    text-align: center;
+    color: #291800;
+  }
+  .disease {
+    background-color: #6F5B40;
+    border: 5px round #ff9100;
+    text-align: right;
+    float: right;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 44px;
+    padding: 2rem;
+    margin: 3rem;
+  }
+
+ 

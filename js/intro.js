@@ -23,4 +23,8 @@ $(document).ready(function(){
           }
         }
       });
+
+      $("#pile").click(function(){
+        $("#pile").animate({left: '250px'});
+    });
 });

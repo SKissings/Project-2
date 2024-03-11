@@ -23,6 +23,7 @@
     text-align: left;
     color: #291800;
     padding-left: 15%;
+    padding-top: 2rem;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -63,6 +64,7 @@
 }
 .name {
     font-size: 64px;
+    font-weight: 400;
 }
 .last {
     font-weight: 700;
@@ -93,6 +95,8 @@
 
 }
 .square {
+    border: solid 5px #291800;
+    border-radius: 10px;
     display: block;
     position: block;
     flex: fixed;
@@ -121,8 +125,10 @@
     flex: absolute;
     background-color: #6F5B40;
     width: 15%;
-    font-size: 35px;
-
+    font-size: 45px;
+}
+.button:visited {
+    color: white;
 }
   .text {
     text-align: center;
@@ -130,7 +136,8 @@
   }
   .disease {
     background-color: #6F5B40;
-    border: 5px round #ff9100;
+    border: 5px solid #6F5B40;
+    border-radius: 10px;
     text-align: right;
     float: right;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -138,5 +145,27 @@
     padding: 2rem;
     margin: 3rem;
   }
-
- 
+.pile {
+    width: 50%;
+}
+ .taste {
+    float: right;
+    flex: absolute;
+    margin-top: 28%;
+    margin-right: 5%;
+    font-size: 35px;
+    color: #FFDDB2;
+ }
+.arrow {
+    display: block;
+    position: absolute;
+    flex: absolute;
+    margin-left: 50%;
+    padding-top: 20%;
+    rotate: 45deg;
+    width: auto;
+}
+.candy {
+    background-image: linear-gradient(rgba(255,0,0,0), #31281f);
+    margin: 3rem 0 0 0;
+}

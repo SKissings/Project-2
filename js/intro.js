@@ -2,33 +2,15 @@
 
 $(document).ready(function() {
 
-    $("#cat-img").hide();
-    $("#happy-dog").hide();
-    $("#secret-text").hide();
+    $("#Ban").hide();
 
 
-    $("#doggo-img").click(function(){
-        $("#doggo-img").hide();
-        $("#cat-img").show();
-
+    $("#Ban").hover(function(){
+        $("#Ban").fadeOut();
     });
 
-    $("#cat-img").click(function(){
-        // $("#doggo-img").show();
-        $("#cat-img").hide();
-        $("#happy-dog").show();
-    });
-
-    $("#happy-dog").click(function(){
-        $("#doggo-img").show();
-        $("#cat-img").hide();
-        $("#happy-dog").hide();
-    });
-
-
-    $("#toggle-text").click(function(){
-        $("#secret-text").toggle();
-        
+    $("#Ban").hover(function(){
+        $("#Ban").fadeIn();
     });
 
 });
